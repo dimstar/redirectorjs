@@ -7,7 +7,7 @@ This handy little guy helps you to create redirections with a regex and a csv fi
 You'll need to edit the redirector.js file's two variables:
 
 > const **REGEX_SEARCH**\
-> const **REPLACE_WITH**\
+> const **REPLACE_WITH**
 
 These control the regex that is providing a string match and a replacement string. 
 
