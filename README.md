@@ -1,15 +1,15 @@
 # redirectorjs
 
-## This handy little guy helps you to create redirections with a regex and a csv file. 
-
-
+This handy little guy helps you to create redirections with a regex and a csv file. 
 
 ## First Step
 
 You'll need to edit the redirector.js file's two variables:
 
 > const **REGEX_SEARCH**\
-> const **REPLACE_WITH**
+> const **REPLACE_WITH**\
+
+These control the regex that is providing a string match and a replacement string. 
 
 ## Last Step
 Now comes the fun part. ask the redirector for help, and you'll get...
@@ -19,9 +19,8 @@ Now comes the fun part. ask the redirector for help, and you'll get...
 > `:~$ node redirection.js input-urls.csv my-output.csv`\
 > give me nothing and that is just what you'll get in return
 
-These control the regex that is providing a string match and a replacement string. 
 
 ## Happy redirecting!
 
-This little tool is primary for use with wordpress's yoast plugin and its redirection import. 
+This little tool is primarily for use with wordpress's yoast plugin and its redirection import. 
 Of course you could use it to other ends.
